@@ -1,4 +1,4 @@
-public class Main {
+public class fisrtProgram {
     public static void main(String[] args) {
         System.out.println("Olá mundo");
 }}
