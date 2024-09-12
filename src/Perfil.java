@@ -8,7 +8,7 @@ public class Perfil {
     System.out.println("Digite o seu nome \n");
     name = sc.next();
 
-    System.out.println("\nSeja bem vindo " + name);
+    System.out.println("\nSeja bem vindo " + name + ", tudo bem?");
 
     sc.close();
 
