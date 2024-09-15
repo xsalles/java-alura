@@ -8,8 +8,10 @@ public class Main {
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         boolean inclusoNoPlano = true;
-        double notaDoFilme = 8.1;
+        double notaDoFilme1 = 8.1;
+        double notaDoFilme2 = 6.5;
+        double media = (notaDoFilme1 + notaDoFilme2) / 2;
 
-        System.out.println("A nota do filme é: " + notaDoFilme);
+        System.out.println("A média das avaliações é essa: " + media);
     }
 }
