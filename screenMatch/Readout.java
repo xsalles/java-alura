@@ -14,5 +14,7 @@ public class Readout {
         yearOfRealease = sc.nextInt();
         
 
+        sc.close();
+
     }
 }
