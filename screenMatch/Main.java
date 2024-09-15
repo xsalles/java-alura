@@ -13,5 +13,9 @@ public class Main {
         double media = (notaDoFilme1 + notaDoFilme2) / 2;
 
         System.out.println("A média das avaliações é essa: " + media);
+
+        String sinopse = "Filme de aventura com galã dos anos 80";
+        System.out.println(sinopse);
+
     }
 }
