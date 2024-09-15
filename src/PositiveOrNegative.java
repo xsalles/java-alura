@@ -16,6 +16,8 @@ public class PositiveOrNegative {
             System.out.println("O número que você digitou é negativo");
         }
 
+        
+
         sc.close();
 
     }
