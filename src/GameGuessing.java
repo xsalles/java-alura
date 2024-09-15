@@ -24,7 +24,7 @@ public class GameGuessing {
                 System.out.println("O valor que você digitou é menor que o número aleatório");
             } 
 
-            if (numberOfAttempts == 20){
+            if (numberOfAttempts == 20 && numberTyped != numberRandom){
                 System.out.println("Infelizmente você atingiu o limite de tentativas. :(");
             }
 
