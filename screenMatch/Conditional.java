@@ -4,7 +4,6 @@ public class Conditional {
     public static void main(String[] args) {
         boolean inclusoNoPlano = true;
         int anoDeLancamento = 2022;
-        double notaDoFilme1 = 8.1;
         String typeOfPlan = "Plus";
 
         if(anoDeLancamento >= 2022){
