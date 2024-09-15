@@ -8,6 +8,11 @@ public class Main {
         int anoDeLancamento = 2022;
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         boolean inclusoNoPlano = true;
+
+        if (inclusoNoPlano == true){
+            System.out.println("Esse filme está incluso no seu plano");
+        }
+
         double notaDoFilme1 = 8.1;
         double notaDoFilme2 = 6.5;
         double media = (notaDoFilme1 + notaDoFilme2) / 2;
@@ -18,6 +23,6 @@ public class Main {
         System.out.println(sinopse);
 
         int classificacao = (int) (media/2);
-        System.out.println(classificacao);
+        System.out.printf("Esse filme tem %d estrelas", classificacao);
     }
 }
